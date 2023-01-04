@@ -1,0 +1,12 @@
+@use "../util/" as u;
+.mb-small {
+  margin-bottom: (16);
+}
+
+.mb-medium {
+  margin-bottom: u.rem(24);
+}
+
+.mb-large {
+  margin-bottom: u.rem(32);
+}
