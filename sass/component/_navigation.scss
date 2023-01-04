@@ -1,6 +1,22 @@
 @use "../util/" as u;
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: u.rem(20);
+
+  &__icon {
+    font-size: u.rem(32);
+  }
+
+  &__text {
+    margin: 0;
+    font-size: u.rem(24);
+  }
+}
+
 .nav {
-  background: orange;
+  background: var(--nav-bg);
   display: flex;
   flex-direction: column;
   padding: u.rem(20);
@@ -12,10 +28,18 @@
   }
 
   &__item {
-
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
   }
 
   &__link {
-    // text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: u.rem(20);
+    color: var(--nav-text);
+    &--icon {
+      font-size: u.rem(32);
+    }
   }
 }

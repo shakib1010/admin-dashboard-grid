@@ -1,0 +1,14 @@
+:root {
+  --color-blue: #1991d2;
+  --color-orange: #f0b428;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-1: #e1e7ef;
+  --color-gray-2: #636363;
+  --color-gray-3: #333333;
+
+
+  // named color
+  --nav-bg: var(--color-blue);
+  --nav-text: var(--color-white);
+}
