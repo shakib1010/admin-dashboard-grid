@@ -1,0 +1,67 @@
+@use "../util/" as u;
+
+.profile-large {
+  display: flex;
+  align-items: center;
+  gap: u.rem(10);
+  &__img {
+    width: u.rem(80);
+    height: u.rem(80);
+    display: inline-block;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__user-name {
+    margin: 0;
+    span {
+      display: block;
+    }
+
+    &--small {
+      font-size: u.rem(18);
+      font-weight: 500;
+    }
+
+    &--large {
+      font-size: u.rem(30);
+      font-weight: 700;
+    }
+  }
+}
+
+
+.profile-sm {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: u.rem(12);
+
+  &__notify-icon {
+    padding-top: u.rem(10);
+    
+    span {
+      font-size: u.rem(24);
+    }
+  }
+
+  &__img {
+    display: block;
+    width: u.rem(48);
+    height: u.rem(48);
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__user-name {
+    p {
+      margin: 0
+    }
+  }
+
+
+}

@@ -1,0 +1,12 @@
+@use '../util/' as u;
+
+.btn {
+  background-color: var(--button-bg-primary);
+  padding: u.rem(12) u.rem(32);
+  color: var(--btn-text);
+  font-weight: 700;
+  border-radius: u.rem(100);
+  box-sizing: none;
+  border: none;
+  font-size: u.rem(16);
+}

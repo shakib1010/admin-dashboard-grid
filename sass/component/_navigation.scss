@@ -38,8 +38,12 @@
     align-items: center;
     gap: u.rem(20);
     color: var(--nav-text);
+    // font-family: 'Roboto', sans-serif;
     &--icon {
       font-size: u.rem(32);
+    }
+    &--text {
+      font-weight: bold;
     }
   }
 }

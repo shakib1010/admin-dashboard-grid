@@ -9,6 +9,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  font-family: inherit;
 }
 
 body {
@@ -17,7 +18,8 @@ body {
 }
 
 .container {
-  max-width: u.rem(1440);
+  // max-width: u.rem(1440);
+  margin: 0 auto;
 }
 
 // Google fonts style

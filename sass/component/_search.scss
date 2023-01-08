@@ -1,0 +1,25 @@
+@use "../util" as u;
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: u.rem(20);
+  padding: u.rem(10);
+  margin-bottom: u.rem(16);
+  
+  &__icon {
+    span {
+      font-size: u.rem(30);
+    }
+  }
+
+  &__input {
+    flex: 1;
+    border-radius: u.rem(100);
+    padding: u.rem(8);
+    box-shadow: none;
+    outline: none;
+    background-color: var(--nav-search-bg);
+  }
+
+}

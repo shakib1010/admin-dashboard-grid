@@ -6,9 +6,12 @@
   --color-gray-1: #e1e7ef;
   --color-gray-2: #636363;
   --color-gray-3: #333333;
-
+  --color-gray-4: #e2e8f0;
 
   // named color
   --nav-bg: var(--color-blue);
   --nav-text: var(--color-white);
+  --nav-search-bg: var(--color-gray-4);
+  --button-bg-primary: var(--color-blue);
+  --btn-text: var(--color-white);
 }
